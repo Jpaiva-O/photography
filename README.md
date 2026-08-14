@@ -1,2 +1,2 @@
-# photography
+# paiva_studios
 Photography Portfolio
