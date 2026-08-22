@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paiva Studios — Photography Portfolio</title>
+  <meta name="description" content="Paiva Studios — a photography portfolio featuring weddings, portraits, landscapes, commercial work and events." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand">PAIVA <span>STUDIOS</span></a>
+      <nav class="nav">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero">
+      <img src="assets/images/hero.jpg" alt="Golden hour wedding photograph" class="hero-bg" />
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <p class="eyebrow">Photography Portfolio</p>
+        <h1>Light, emotion, <em>forever.</em></h1>
+        <p class="hero-sub">Weddings, portraits, landscapes, and commercial photography — crafted with intention.</p>
+        <a href="#portfolio" class="btn">View the work</a>
+      </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Selected Work</p>
+          <h2>Portfolio</h2>
+        </header>
+
+        <div class="gallery">
+          <figure class="tile tall" data-caption="Wedding — Golden Hour">
+            <img src="assets/images/wedding.jpg" alt="Candid wedding photograph in a garden" loading="lazy" />
+            <figcaption>Wedding</figcaption>
+          </figure>
+          <figure class="tile" data-caption="Portrait — Studio Light">
+            <img src="assets/images/portrait.jpg" alt="Studio portrait with dramatic lighting" loading="lazy" />
+            <figcaption>Portrait</figcaption>
+          </figure>
+          <figure class="tile" data-caption="Landscape — Alpine Sunrise">
+            <img src="assets/images/landscape.jpg" alt="Mountain landscape at sunrise" loading="lazy" />
+            <figcaption>Landscape</figcaption>
+          </figure>
+          <figure class="tile" data-caption="Street — After the Rain">
+            <img src="assets/images/street.jpg" alt="European city street at dusk" loading="lazy" />
+            <figcaption>Street</figcaption>
+          </figure>
+          <figure class="tile" data-caption="Commercial — Precision">
+            <img src="assets/images/product.jpg" alt="Luxury watch product photograph" loading="lazy" />
+            <figcaption>Commercial</figcaption>
+          </figure>
+          <figure class="tile tall" data-caption="Event — Gala Night">
+            <img src="assets/images/event.jpg" alt="Corporate gala event photograph" loading="lazy" />
+            <figcaption>Event</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section section-alt">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Paiva Studios</h2>
+          <p class="lead">We are a photography studio devoted to honest, atmospheric imagery — images that hold a feeling long after the moment passes.</p>
+          <p>From intimate weddings to large-scale commercial campaigns, every project gets the same care: thoughtful light, real emotion, and timeless composition.</p>
+        </div>
+        <ul class="stats">
+          <li><strong>10+</strong><span>Years behind the lens</span></li>
+          <li><strong>300+</strong><span>Projects delivered</span></li>
+          <li><strong>25</strong><span>Countries photographed</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container contact-inner">
+        <p class="eyebrow">Let’s work together</p>
+        <h2>Tell us your story.</h2>
+        <p>Booking weddings, portraits, campaigns, and events. We would love to hear about yours.</p>
+        <a href="mailto:hello@paivastudios.com" class="btn btn-light">hello@paivastudios.com</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="brand">PAIVA <span>STUDIOS</span></p>
+      <p class="footer-links">
+        <a href="https://github.com/Jpaiva-O/photography" target="_blank" rel="noopener">GitHub</a>
+        <span>·</span>
+        <span>© <span id="year"></span> Paiva Studios</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+    <img id="lightbox-img" src="" alt="" />
+    <p class="lightbox-caption" id="lightbox-caption"></p>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
