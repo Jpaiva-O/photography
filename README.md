@@ -4,9 +4,8 @@ Photography Portfolio — wedding, portrait, landscape, commercial and event pho
 
 ## Links
 
-- **Live site (GitHub Pages):** https://jpaiva-o.github.io/photography/
 - **Repository:** https://github.com/Jpaiva-O/photography
-- **Code:** https://github.com/Jpaiva-O/photography
+- **Live site (GitHub Pages):** https://jpaiva-o.github.io/photography/
 
 ## Structure
 
