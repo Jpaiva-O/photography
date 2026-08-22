@@ -1,8 +1,23 @@
-// Header shadow on scroll
+// Header shadow + mobile menu
 const header = document.querySelector('.site-header');
+const nav = document.getElementById('nav');
+const navToggle = document.getElementById('nav-toggle');
+
 const onScroll = () => header.classList.toggle('scrolled', window.scrollY > 40);
 window.addEventListener('scroll', onScroll, { passive: true });
 onScroll();
+
+navToggle.addEventListener('click', () => {
+  const open = nav.classList.toggle('open');
+  navToggle.setAttribute('aria-expanded', String(open));
+});
+
+nav.querySelectorAll('a').forEach((a) =>
+  a.addEventListener('click', () => {
+    nav.classList.remove('open');
+    navToggle.setAttribute('aria-expanded', 'false');
+  })
+);
 
 // Footer year
 document.getElementById('year').textContent = new Date().getFullYear();

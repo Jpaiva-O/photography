@@ -1,38 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Paiva Studios — Photography Portfolio</title>
-  <meta name="description" content="Paiva Studios — a photography portfolio featuring weddings, portraits, landscapes, commercial work and events." />
+  <title>paiva_studios — João Oliveira · Fotografia</title>
+  <meta name="description" content="paiva_studios — João Oliveira, fotógrafo. Retratos, eventos e edição. Capturando a essência da vida com maestria." />
+  <meta property="og:title" content="paiva_studios — João Oliveira" />
+  <meta property="og:description" content="Um fotógrafo inspirado que captura os momentos da vida com maestria." />
+  <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
 
   <header class="site-header">
     <div class="container header-inner">
-      <a href="#top" class="brand">PAIVA <span>STUDIOS</span></a>
-      <nav class="nav">
-        <a href="#portfolio">Portfolio</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+      <a href="#top" class="brand">paiva<span>_studios</span></a>
+      <nav class="nav" id="nav">
+        <a href="#portfolio">Portfólio</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
       </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
     </div>
   </header>
 
   <main id="top">
+
     <!-- Hero -->
     <section class="hero">
-      <img src="assets/images/hero.jpg" alt="Golden hour wedding photograph" class="hero-bg" />
+      <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/laats3czmudrw18jph6z.jpg" alt="Fotografia de João Oliveira" class="hero-bg" />
       <div class="hero-overlay"></div>
       <div class="container hero-content">
-        <p class="eyebrow">Photography Portfolio</p>
-        <h1>Light, emotion, <em>forever.</em></h1>
-        <p class="hero-sub">Weddings, portraits, landscapes, and commercial photography — crafted with intention.</p>
-        <a href="#portfolio" class="btn">View the work</a>
+        <p class="eyebrow">Fotografia · Brasil &amp; EUA</p>
+        <h1>Momentos que ficam <em>para sempre.</em></h1>
+        <p class="hero-sub">Um fotógrafo inspirado que captura os momentos da vida com maestria — pelas ruas do Brasil até os cantos mais movimentados dos EUA.</p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn">Ver portfólio</a>
+          <a href="https://wa.me/5531990842200" target="_blank" rel="noopener" class="btn btn-ghost">WhatsApp</a>
+        </div>
       </div>
     </section>
 
@@ -40,81 +51,149 @@
     <section id="portfolio" class="section">
       <div class="container">
         <header class="section-head">
-          <p class="eyebrow">Selected Work</p>
-          <h2>Portfolio</h2>
+          <p class="eyebrow">Trabalhos em destaque</p>
+          <h2>Portfólio</h2>
+          <p class="section-sub">Uma seleção de histórias capturadas pela minha lente.</p>
         </header>
-
-        <div class="gallery">
-          <figure class="tile tall" data-caption="Wedding — Golden Hour">
-            <img src="assets/images/wedding.jpg" alt="Candid wedding photograph in a garden" loading="lazy" />
-            <figcaption>Wedding</figcaption>
+        <div class="gallery" id="gallery">
+          <figure class="tile" data-caption="Portfólio 01">
+            <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/laats3czmudrw18jph6z.jpg" alt="Fotografia 01" loading="lazy" />
           </figure>
-          <figure class="tile" data-caption="Portrait — Studio Light">
-            <img src="assets/images/portrait.jpg" alt="Studio portrait with dramatic lighting" loading="lazy" />
-            <figcaption>Portrait</figcaption>
+          <figure class="tile" data-caption="Portfólio 02">
+            <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/heosddhbhvsbpn1xjguy.jpg" alt="Fotografia 02" loading="lazy" />
           </figure>
-          <figure class="tile" data-caption="Landscape — Alpine Sunrise">
-            <img src="assets/images/landscape.jpg" alt="Mountain landscape at sunrise" loading="lazy" />
-            <figcaption>Landscape</figcaption>
+          <figure class="tile" data-caption="Portfólio 03">
+            <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/ffwd8g2bal1fmncz20tq.jpg" alt="Fotografia 03" loading="lazy" />
           </figure>
-          <figure class="tile" data-caption="Street — After the Rain">
-            <img src="assets/images/street.jpg" alt="European city street at dusk" loading="lazy" />
-            <figcaption>Street</figcaption>
+          <figure class="tile" data-caption="Portfólio 04">
+            <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/xdtgkjejqzacpcf41pkz.jpg" alt="Fotografia 04" loading="lazy" />
           </figure>
-          <figure class="tile" data-caption="Commercial — Precision">
-            <img src="assets/images/product.jpg" alt="Luxury watch product photograph" loading="lazy" />
-            <figcaption>Commercial</figcaption>
+          <figure class="tile" data-caption="Portfólio 05">
+            <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/yj6n0neyv8shg4dpjoeb.jpg" alt="Fotografia 05" loading="lazy" />
           </figure>
-          <figure class="tile tall" data-caption="Event — Gala Night">
-            <img src="assets/images/event.jpg" alt="Corporate gala event photograph" loading="lazy" />
-            <figcaption>Event</figcaption>
+          <figure class="tile" data-caption="Portfólio 06">
+            <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/ajstj0wenqlax20k04ed.jpg" alt="Fotografia 06" loading="lazy" />
+          </figure>
+          <figure class="tile" data-caption="Portfólio 07">
+            <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/sa08ykxhebvung1zcj32.jpg" alt="Fotografia 07" loading="lazy" />
+          </figure>
+          <figure class="tile" data-caption="Portfólio 08">
+            <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/ezmdrv8rt06sif2vznz1.jpg" alt="Fotografia 08" loading="lazy" />
+          </figure>
+          <figure class="tile" data-caption="Portfólio 09">
+            <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/p3ukj5ohrqgykoxuytgg.jpg" alt="Fotografia 09" loading="lazy" />
+          </figure>
+          <figure class="tile" data-caption="Portfólio 10">
+            <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/kqcsoginvo4ahja25ddg.jpg" alt="Fotografia 10" loading="lazy" />
+          </figure>
+          <figure class="tile" data-caption="Portfólio 11">
+            <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188938/paiva_studios/rahyaxm1x1ehuff71osw.jpg" alt="Fotografia 11" loading="lazy" />
           </figure>
         </div>
       </div>
     </section>
 
-    <!-- About -->
-    <section id="about" class="section section-alt">
+    <!-- Serviços -->
+    <section id="servicos" class="section section-alt">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">O que eu faço</p>
+          <h2>Serviços</h2>
+        </header>
+        <div class="services">
+          <article class="service">
+            <span class="service-num">01</span>
+            <h3>Retratos</h3>
+            <p>Ensaios que revelam a sua essência — luz marcante, emoção real e direção cuidadosa.</p>
+          </article>
+          <article class="service">
+            <span class="service-num">02</span>
+            <h3>Eventos</h3>
+            <p>Cobertura discreta e autêntica dos melhores momentos, do primeiro olhar ao último brinde.</p>
+          </article>
+          <article class="service">
+            <span class="service-num">03</span>
+            <h3>Editação</h3>
+            <p>Tratamento profissional de imagem: cor, luz e atmosfera com identidade e consistência.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section">
       <div class="container about-grid">
-        <div>
-          <p class="eyebrow">About</p>
-          <h2>Paiva Studios</h2>
-          <p class="lead">We are a photography studio devoted to honest, atmospheric imagery — images that hold a feeling long after the moment passes.</p>
-          <p>From intimate weddings to large-scale commercial campaigns, every project gets the same care: thoughtful light, real emotion, and timeless composition.</p>
+        <div class="about-photo">
+          <img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188937/paiva_studios/d4o1xu0bt2wr79ahx32o.jpg" alt="João Oliveira" loading="lazy" />
         </div>
-        <ul class="stats">
-          <li><strong>10+</strong><span>Years behind the lens</span></li>
-          <li><strong>300+</strong><span>Projects delivered</span></li>
-          <li><strong>25</strong><span>Countries photographed</span></li>
-        </ul>
+        <div>
+          <p class="eyebrow">Um pouco sobre mim</p>
+          <h2>João Oliveira</h2>
+          <p class="lead">“A fotografia não é só um trabalho — é a minha forma de enxergar o mundo com uma nova perspectiva todos os dias.”</p>
+          <p>Olá! Sou o João, um fotógrafo que ama capturar a essência da vida através da lente. Seja pelas ruas vibrantes do Brasil ou pelos cantos movimentados dos EUA, meu objetivo é contar histórias incríveis a cada clique. Acredito que as imagens têm o poder de conectar pessoas de diferentes culturas e fronteiras. Bora criar algo inesquecível juntos?</p>
+          <a href="https://wa.me/5531990842200" target="_blank" rel="noopener" class="btn btn-outline">Vamos conversar</a>
+        </div>
       </div>
     </section>
 
-    <!-- Contact -->
-    <section id="contact" class="section">
+    <!-- Depoimentos -->
+    <section id="depoimentos" class="section section-alt">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Carinho de quem já viveu</p>
+          <h2>Depoimentos</h2>
+        </header>
+        <div class="quotes">
+          <blockquote class="quote">
+            <p>“Linda Julia ❤️”</p>
+            <footer><img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188946/paiva_studios/comments/uvandbliz8oyigegxnvf.jpg" alt="" /><span>@keniatatianamelo</span></footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Linda ❤️❤️”</p>
+            <footer><img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188947/paiva_studios/comments/a0grw0h3ceg4naj2usrd.jpg" alt="" /><span>@agabriellaom</span></footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“Que lindaaaaaa”</p>
+            <footer><img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188947/paiva_studios/comments/ngghvpt1rnge3jv56ssl.jpg" alt="" /><span>@jessica8moreira</span></footer>
+          </blockquote>
+          <blockquote class="quote">
+            <p>“❤❤❤”</p>
+            <footer><img src="https://merlin-cloudinary.b-cdn.net/dftjvuiin/image/upload/v1782188949/paiva_studios/comments/j9hulqj5wab456jkw7ii.jpg" alt="" /><span>@juliacampagnaro</span></footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="section contato">
       <div class="container contact-inner">
-        <p class="eyebrow">Let’s work together</p>
-        <h2>Tell us your story.</h2>
-        <p>Booking weddings, portraits, campaigns, and events. We would love to hear about yours.</p>
-        <a href="mailto:hello@paivastudios.com" class="btn btn-light">hello@paivastudios.com</a>
+        <p class="eyebrow">Entre em contato</p>
+        <h2>Bora criar algo inesquecível juntos?</h2>
+        <p>Ensaio, evento ou projeto — me chame e vamos conversar sobre a sua história.</p>
+        <div class="contact-links">
+          <a href="https://wa.me/5531990842200" target="_blank" rel="noopener" class="btn">WhatsApp</a>
+          <a href="mailto:jhnoliviera@gmail.com" class="btn btn-ghost">E-mail</a>
+          <a href="https://instagram.com/paiva_studios" target="_blank" rel="noopener" class="btn btn-ghost">Instagram</a>
+        </div>
+        <p class="contact-meta">@paiva_studios · +55 31 99084-2200 · jhnoliviera@gmail.com</p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p class="brand">PAIVA <span>STUDIOS</span></p>
+      <p class="brand">paiva<span>_studios</span></p>
       <p class="footer-links">
-        <a href="https://github.com/Jpaiva-O/photography" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://instagram.com/paiva_studios" target="_blank" rel="noopener">Instagram</a>
         <span>·</span>
-        <span>© <span id="year"></span> Paiva Studios</span>
+        <span>© <span id="year"></span> João Oliveira · paiva_studios</span>
       </p>
     </div>
   </footer>
 
   <!-- Lightbox -->
-  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
-    <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualizador de imagens">
+    <button class="lightbox-close" id="lightbox-close" aria-label="Fechar">&times;</button>
     <img id="lightbox-img" src="" alt="" />
     <p class="lightbox-caption" id="lightbox-caption"></p>
   </div>

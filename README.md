@@ -1,19 +1,19 @@
-# paiva_studios
+# paiva_studios — João Oliveira
 
-Photography Portfolio — wedding, portrait, landscape, commercial and event photography.
+Portfólio de fotografia: retratos, eventos e edição — Brasil & EUA.
 
 ## Links
 
-- **Repository:** https://github.com/Jpaiva-O/photography
-- **Live site (GitHub Pages):** https://jpaiva-o.github.io/photography/
+- **Repositório:** https://github.com/Jpaiva-O/photography
+- **Site (GitHub Pages):** https://jpaiva-o.github.io/photography/
 
-## Structure
+## Estrutura
 
-- `index.html` — portfolio site
-- `assets/css/style.css` — styles
-- `assets/js/main.js` — lightbox + header behavior
-- `assets/images/` — photography images
+- `index.html` — site remodelado (pt-BR)
+- `assets/css/style.css` — estilos
+- `assets/js/main.js` — lightbox e navegação
+- `assets/images/` — fotos do portfólio
 
 ## Deploy
 
-The site is published with GitHub Pages from the `arena/01a02746-photography` branch at the repository root.
+Publicado via GitHub Pages a partir da branch `arena/01a02746-photography` na raiz do repositório.
